@@ -1,0 +1,17 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "tailwind css modules",
+  "main": "index.js",
+  "scripts": {
+    "buildcss": "tailwindcss build ./source/style.css -o ./dist/tailwind.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jhvonsky",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
+  }
+}
